@@ -1,1 +1,1 @@
-# PSY6422_pjct
+# PSY6422_project
