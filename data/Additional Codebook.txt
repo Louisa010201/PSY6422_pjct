@@ -1,0 +1,248 @@
+Data collected in the Global Burden of Disease Study 2019 (GBD 2019) Contraceptive Prevalence Estimates 1970-2019. This data came with an existing codebook in "data" then "Codebook.csv"
+
+Instructions to load and save data:
+
+To load the data for this project follow the doi below:
+Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019). Contraceptive Prevalence Estimates 1970-2019. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME), 2022. https://doi.org/10.6069/WZHR-V063	
+
+Once on the webpage, select files, then download the file "Contraceptive Prevalence Estimates(CSV)". After this has downloaded, open the file "IHME_GBD_2019_CONTRACEPTIVE_PREVALENCE_1990_2019_DATA_ALL_WOMEN_Y2022M07D23.CSV". Save this file in "data" and name it "data.csv". 
+
+This data set shows contraceptive Prevalence estimates from the years 1990-2019.															
+
+In the data frame "cf1" all the world regions dataframes have been joined into one column named "region". These include: 
+- central europe, eastern europe and central asia
+- high income
+- latin america and caribbean
+- north africa and middle east
+- south asia
+- southeast asia, east asia and oceania
+- subsaharan africa
+									
+In the "central_europe_eastern_europe_central_asia" dataframe, countries from the central Europe, eastern Europe and central Asia include:
+
+Armenia
+Azerbaijan
+Georgia
+Kazakhstan
+Kyrgzstan
+Mongolia
+Takiikstan 
+Turkmenistan
+Uzbekistan
+Albania
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Hungary
+Montenegro
+North Macedonia
+Poland
+Romania
+Serbia
+Slovakia
+Slovenia
+Belarus 
+Estonia
+Latvia
+Lithuania
+Moldova
+Russia
+Ukraine
+
+In the "high_income" dataframe, high income countries include:
+
+Australia
+New Zealand
+Brunei
+Japan
+Singapore 
+South Korea
+Canada
+Greenland
+United States of America 
+Argentina
+Chile
+Uruguay
+Andorra
+Austria
+Belgium 
+Cyprus
+Denmark 
+Finland 
+France 
+Germany
+Greece 
+Iceland
+Ireland
+Israel
+Italy
+Luxembourg
+Malta
+Monaco
+Netherlands
+Norway
+Portugal 
+San Marino
+Spain
+Sweden
+Switzerland
+United Kingdom
+
+In the "latin_america_caribbean" dataframe, countries in latin America and the Caribbean include:
+
+Bolivia
+Ecuador
+Peru
+Caribbean
+Antigua and Barbuda
+Bahamas
+Barbados
+Belize
+Bermuda
+Cuba
+Dominica
+Dominican Republic
+Grenada
+Guyana
+Haiti
+Jamaica
+Puerto Rico
+Saint Kitts and Nevis
+Saint Lucia
+Saint Vincent and the Grenadines
+Suriname
+Trinidad and Tobago
+Virgin Islands
+Colombia
+El Salvador
+Guatemala
+Mexico
+Nicargua
+Panama
+Venezeula
+Brazil
+Paraguay
+
+In the "north_africa_middle_east" dataframe, countries from north Africa and the Middle East include:
+
+Afghanistan 
+Algeria 
+Bahrain
+Egypt
+Iran
+Jordan
+Kuwait
+Lebanon
+Libya
+Morocco
+Oman
+Palestine
+Qatar
+Saudi Arabia
+Sudan
+Syria
+Tunisia
+Turkey
+United Arab Emirates
+Yemen
+
+In the "south_asia" dataframe, countries from south Asia include:
+
+Bangladesh
+Bhutan
+India
+Nepal
+Pakistan
+
+In the "southeast_asia_east_asia_oceania" dataframe, countries from southeast Asia, east Asia and Oceania include:
+
+China
+North Korea
+Taiwan
+American Samoa
+Cook Islands
+Micronesia
+Fiji
+Guam
+Kiribati
+Marshall Islands
+Nauru
+Niue
+Northern Mariana Islands
+Palau
+Papua New Guinea
+Samoa
+Solomon Islands
+Tokelau
+Tonga
+Tuvalu
+Vanuatu
+Cambodia
+Indonesia 
+Laos
+Malaysia
+Maldives
+Mauritius 
+Myanmar 
+Philippines 
+Seychelles 
+Sri Lanka
+Thailand
+Timor-Leste 
+Vietman 
+
+In the "subsaharan_africa" dataframe, countries from Subsaharan Africa include:	
+
+Congo
+Central African Republic
+Congo
+Democratic Republic of the Congo
+Equatorial Guinea
+Gabon
+Burundi
+Comoros
+Djibouti
+Eritrea
+Ethiopia 
+Kenya
+Madagascar
+Malawi
+Mozambique
+Rwanda
+Somalia
+South Sudan
+Tanzania
+Uganda
+Zambia 
+Botswana
+Eswatini
+Lesotho
+Namibia
+South Africa 
+Zimbabwe
+Benin
+Burkina Faso
+Cameroon
+Cape Verde
+Chad
+Cote d'Ivoire 
+Gambia 
+Ghana 
+Guinea 
+Guinea-Bissau
+Liberia
+Mali
+Mauritania
+Niger 
+Nigeria 
+Sao Tome and Principe
+Senegal
+Sierra Leone
+Toga
+
+
+The "average" dataframe provides the mean for each year for each region. The varaible label is "mean_yr_region".
+
+
+																
+																						
